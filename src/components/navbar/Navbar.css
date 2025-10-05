@@ -1,0 +1,58 @@
+.nav-link li {
+    font-family: "montserrat", sans-serif;
+    color: #351e15;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.join-btn {
+    border: 1px solid #351e15;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 130px;
+    letter-spacing: 1px;
+    color: #351e15;
+    transition: all 0.3s ease;
+    font-size: 12px;
+    letter-spacing: 1;
+    font-weight: 500;
+    font-family: "montserrat",serif;
+}
+
+.join-btn:hover {
+    background-color: #351e15;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        display: none;
+    }
+}
+
+ @media (max-width: 600px) {
+        .input {
+            width: 200px;
+        }
+
+        .join-btn {
+            width: 100px;
+            font-size: 10px;
+        }
+    }
+    
+    @media (max-width: 450px) {
+        .input {
+            width: 150px;
+        }
+
+        form {
+            margin-left: 20px;
+        }
+
+        .join-btn {
+            display: none;
+        }
+    }
