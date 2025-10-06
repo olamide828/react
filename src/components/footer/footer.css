@@ -34,10 +34,10 @@
 
 .news-letter-div form input:focus {
     outline: none;
-    border: 1px dashed #351e15;
+    border: 1px dotted #351e15;
 }
 
-.news-letter-div form button {
+.news-letter-div form button {                      
     border: 1px solid #351e15;
     padding: 12px;
     width: 150px;

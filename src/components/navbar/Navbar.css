@@ -5,6 +5,15 @@
     font-size: 14px;
 }
 
+.nav-link li:hover {
+    color: #86472e;
+    transition: all 0.3s ease;
+}
+
+.nav-link li:active {
+    font-weight: 600;
+}
+
 .join-btn {
     border: 1px solid #351e15;
     height: 40px;

@@ -3,6 +3,7 @@ import Logo from "../../assets/Logo.svg";
 import instagram from "../../assets/instagram.png";
 import facebook from "../../assets/facebook.png";
 import youtube from "../../assets/youtube.png";
+import tiktok from "../../assets/tiktok.png";
 
 
 const Footer = () => {
@@ -24,7 +25,7 @@ const Footer = () => {
                         <div className="flex gap-10">
                         <a href="#"><img src={instagram} alt="instagram" width={20} /></a>
                         <a href="#"><img src={youtube} alt="youtube" width={20} /></a>
-                        <a href="#"><img src={facebook} alt="facebook" width={20} /></a>
+                        <a href="https://www.tiktok.com/@awolowomadeolamide" target="_blank"><img src={tiktok} alt="facebook" width={20} /></a>
                         </div>
                     </div>
                 </div>

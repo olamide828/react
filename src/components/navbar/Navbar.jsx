@@ -1,6 +1,7 @@
 import "../navbar/Navbar.css";
 import Logo from "../../assets/Logo.svg";
 
+
 const Navbar = () => {
     return(
         <section>
@@ -8,15 +9,15 @@ const Navbar = () => {
                 <div className="flex items-center gap-20">
                 <a href="#"><img src={Logo} alt="Logo" /></a>
                 <ul className="nav-link flex gap-10">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">All Courses</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="all-courses.jsx">All Courses</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
             <div className="flex items-center gap-6">
-     <form class="form relative">
+     <form id="form" class="form relative">
   <button class="absolute left-2 -translate-y-1/2 top-1/2 p-1">
     <svg
       width="17"
@@ -58,7 +59,7 @@ const Navbar = () => {
     </svg>
   </button>
 </form>
-<button className="join-btn">JOIN TODAY</button>
+<button className="join-btn" id="joinBtn">JOIN TODAY</button>
             </div>
             </nav>
           </section>

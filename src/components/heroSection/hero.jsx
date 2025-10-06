@@ -13,7 +13,7 @@ import reviewer1 from "../../assets/reviewer1.jpg";
 import reviewer2 from "../../assets/reviewer2.jpg";
 import reviewer3 from "../../assets/reviewer3.jpg";
 import reviewer4 from "../../assets/reviewer4.jpg";
-
+import tiktok from "../../assets/tiktok.png"
 
 const Hero_section = () => {
     return(
@@ -42,7 +42,7 @@ const Hero_section = () => {
                          <div className="media-logo-div  flex gap-10">
                             <a href="#"><img src={instagram} alt="instagram-logo" width={20} className="media-logo" /></a>
                             <a href="#"><img src={youtube} alt="youtube-logo" width={20} className="media-logo"/></a>
-                            <a href="#"><img src={facebook} alt="facebook-logo" width={20} className="media-logo"/></a>
+                            <a href="https://www.tiktok.com/@awolowomadeolamide" target="_blank"><img src={tiktok} alt="facebook-logo" width={20} className="media-logo"/></a>
                          </div>
                     </div>
                     <div>
